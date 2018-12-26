@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-api": "json-server --watch db.json"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/angular": "^1.6.53",
     "angular": "^1.7.5",
     "bootstrap": "^4.1.3",
     "gulp": "^3.9.1",

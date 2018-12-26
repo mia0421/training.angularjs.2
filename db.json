@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Fields": [
+    {
+      "key": "Number",
+      "name": "會員編號"
+    },
+    {
+      "key": "Name",
+      "name": "會員名稱"
+    },
+    {
+      "key": "Phone",
+      "name": "會員手機"
+    },
+    {
+      "key": "Address",
+      "name": "會員地址"
+    },
+    {
+      "key": "Note",
+      "name": "備註"
+    }
+  ],
+  "Data": [
+    {
+      "id": "1545807125855",
+      "Number": "A001",
+      "Name": "Mia",
+      "Phone": "0911111111",
+      "Address": "你家就是我家",
+      "Note": "我是Mia"
+    },
+    {
+      "id": "1545807129907",
+      "Number": "A002",
+      "Name": "Mark",
+      "Phone": "0922222222",
+      "Address": "你家就是我家",
+      "Note": "我是Mark"
+    },
+    {
+      "id": "1545807161036",
+      "Number": "A2",
+      "Name": "test 姓名",
+      "Phone": "test 電話",
+      "Address": "test收件地址",
+      "Note": "test備註"
+    }
+  ]
+}

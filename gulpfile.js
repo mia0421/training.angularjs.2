@@ -6,8 +6,8 @@ var path = {
     tsPath: ["src/**/*.ts"],
 };
 
-gulp.task('default',['watch','connect']);
-gulp.task('connect', function() {
+gulp.task('default', ['watch', 'connect']);
+gulp.task('connect', function () {
     connect.server();
 });
 
@@ -17,6 +17,9 @@ gulp.task('tsc', function () {
             noImplicitAny: true,
             outFile: 'output.js'
         }))
+        .on('error', (error) => {
+            console.log(error)
+        })
         .pipe(gulp.dest('built/local'));
 });
 
